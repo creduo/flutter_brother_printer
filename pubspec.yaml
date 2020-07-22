@@ -2,7 +2,7 @@ name: flutter_brother_printer
 description: A Flutter plugin for Brother label printers
 version: 0.0.1
 author: Juhyuk Park
-homepage: https://github.com/creduo/flutter-brother-printer
+homepage: https://github.com/creduo/flutter_brother_printer
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
