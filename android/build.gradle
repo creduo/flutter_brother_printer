@@ -1,4 +1,4 @@
-group 'kr.gempro.flutter_brother_printer'
+group 'com.example.flutter_brother_printer'
 version '1.0-SNAPSHOT'
 
 buildscript {

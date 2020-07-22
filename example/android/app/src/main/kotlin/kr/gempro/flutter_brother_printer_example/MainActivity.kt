@@ -1,4 +1,4 @@
-package kr.gempro.flutter_brother_printer_example
+package com.example.flutter_brother_printer_example
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
