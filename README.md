@@ -1,14 +1,33 @@
 # flutter_brother_printer
 
-A Flutter plugin for Brother label printers
+A Flutter plugin wraps Brother Mobile SDK for Brother PT, QL series label printers 
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+1. Add "flutter_brother_print" to pubspec.yaml
+2. Proper permissions for bluetooth and external media (for android only) are required
+3. scan, configure, and print bitmap image
 
-For help getting started with Flutter, view our 
-[online documentation](https://flut ter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## How to Print
+
+scanDevice()
+- initiate device scan
+
+getPairedDevices()
+- retrive paired devices 
+
+configure()
+- configure printer info
+
+connect()
+- starts communication with printer
+
+print()
+- sends a bitmap image to printer 
+
+disconnect()
+- ends communication with printer
+
+## Tested Printers
+
+QL-820NWB, PT-P710BT

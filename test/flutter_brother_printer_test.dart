@@ -17,7 +17,7 @@ void main() {
     channel.setMockMethodCallHandler(null);
   });
 
-  test('getPlatformVersion', () async {
-    expect(await FlutterBrotherPrinter.platformVersion, '42');
+  test('configure', () async {
+    expect(await FlutterBrotherPrinter.configure, '0');
   });
 }
