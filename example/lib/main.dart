@@ -41,11 +41,10 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: Column(
             children: [
-              MaterialButton(
+              RaisedButton(
                 onPressed: () async {
                   await FlutterBrotherPrinter.pairedDevices;
                 },
-                padding: EdgeInsets.all(20),
                 child: Text('Paired Devices'),
               ),
 
@@ -61,25 +60,22 @@ class _MyAppState extends State<MyApp> {
                 child: Text("Could not retrieve any paired device"),
               ),
 
-              MaterialButton(
+              RaisedButton(
                 onPressed: () async {
                   await FlutterBrotherPrinter.disconnect();
                 },
-                padding: EdgeInsets.all(20),
                 child: Text('Start Session - connect()'),
               ),
-              MaterialButton(
+              RaisedButton(
                 onPressed: () async {
                   await FlutterBrotherPrinter.print();
                 },
-                padding: EdgeInsets.all(20),
                 child: Text('Print'),
               ),
-              MaterialButton(
+              RaisedButton(
                 onPressed: () async {
                   await FlutterBrotherPrinter.disconnect();
                 },
-                padding: EdgeInsets.all(20),
                 child: Text('End Session - disconnect()'),
               ),
             ],
