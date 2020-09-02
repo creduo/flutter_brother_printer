@@ -1,6 +1,6 @@
 name: flutter_brother_printer
-description: A Flutter plugin for Brother label printers
-version: 0.0.2
+description: A Flutter plugin wraps Brother Mobile SDK for Brother PT, QL series label printers
+version: 0.0.3
 homepage: https://github.com/creduo/flutter_brother_printer
 
 environment:

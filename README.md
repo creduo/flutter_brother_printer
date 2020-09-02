@@ -1,6 +1,11 @@
 # flutter_brother_printer
 
+[![pub package](https://img.shields.io/pub/v/flutter_brother_printer.svg)](https://pub.dev/packages/flutter_brother_printer)
+
 A Flutter plugin wraps Brother Mobile SDK for Brother PT, QL series label printers 
+
+THIS PLUGIN IS STILL UNDER DEVELOPMENT, PLEASE DO NOT USE THIS PLUGIN IN PRODUCTION.
+====================================================================================
 
 ## Getting Started
 
@@ -31,3 +36,8 @@ disconnect()
 ## Tested Printers
 
 QL-820NWB, PT-P710BT
+
+## License
+
+Apache 2.0
+for BrotherPrintLibrary, please refer [https://support.brother.com/g/s/agreement/English/agree.html](https://support.brother.com/g/s/agreement/English/agree.html)
